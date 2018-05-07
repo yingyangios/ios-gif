@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3CE88FB120A03A3400045DC8 /* circle.gif in Resources */ = {isa = PBXBuildFile; fileRef = 3CE88FB020A03A3300045DC8 /* circle.gif */; };
 		3CE9A5E1209BFD080022E4FF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CE9A5E0209BFD080022E4FF /* AppDelegate.m */; };
 		3CE9A5E4209BFD080022E4FF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CE9A5E3209BFD080022E4FF /* ViewController.m */; };
 		3CE9A5E7209BFD080022E4FF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3CE9A5E5209BFD080022E4FF /* Main.storyboard */; };
@@ -15,6 +16,10 @@
 		3CE9A5EF209BFD0A0022E4FF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CE9A5EE209BFD0A0022E4FF /* main.m */; };
 		3CE9A5F9209BFD0A0022E4FF /* git____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CE9A5F8209BFD0A0022E4FF /* git____Tests.m */; };
 		3CE9A604209BFD0A0022E4FF /* git____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CE9A603209BFD0A0022E4FF /* git____UITests.m */; };
+		3CE9A615209BFFEF0022E4FF /* GIFImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CE9A614209BFFEF0022E4FF /* GIFImageView.m */; };
+		3CE9A618209C00590022E4FF /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CE9A617209C00590022E4FF /* CoreImage.framework */; };
+		3CE9A621209C5FBB0022E4FF /* CADisplayImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CE9A620209C5FBB0022E4FF /* CADisplayImageView.m */; };
+		3CE9A624209C61860022E4FF /* ZYImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CE9A623209C61860022E4FF /* ZYImage.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +40,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3CE88FB020A03A3300045DC8 /* circle.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = circle.gif; path = ../../../../Desktop/circle.gif; sourceTree = "<group>"; };
 		3CE9A5DC209BFD080022E4FF /* git动图加载.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "git动图加载.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3CE9A5DF209BFD080022E4FF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		3CE9A5E0209BFD080022E4FF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -51,6 +57,13 @@
 		3CE9A5FF209BFD0A0022E4FF /* git动图加载UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "git动图加载UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3CE9A603209BFD0A0022E4FF /* git____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "git____UITests.m"; sourceTree = "<group>"; };
 		3CE9A605209BFD0A0022E4FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3CE9A613209BFFEF0022E4FF /* GIFImageView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GIFImageView.h; sourceTree = "<group>"; };
+		3CE9A614209BFFEF0022E4FF /* GIFImageView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GIFImageView.m; sourceTree = "<group>"; };
+		3CE9A617209C00590022E4FF /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
+		3CE9A61F209C5FBB0022E4FF /* CADisplayImageView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CADisplayImageView.h; sourceTree = "<group>"; };
+		3CE9A620209C5FBB0022E4FF /* CADisplayImageView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CADisplayImageView.m; sourceTree = "<group>"; };
+		3CE9A622209C61860022E4FF /* ZYImage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZYImage.h; sourceTree = "<group>"; };
+		3CE9A623209C61860022E4FF /* ZYImage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYImage.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +71,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3CE9A618209C00590022E4FF /* CoreImage.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +99,7 @@
 				3CE9A5F7209BFD0A0022E4FF /* git动图加载Tests */,
 				3CE9A602209BFD0A0022E4FF /* git动图加载UITests */,
 				3CE9A5DD209BFD080022E4FF /* Products */,
+				3CE9A616209C00580022E4FF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,6 +116,7 @@
 		3CE9A5DE209BFD080022E4FF /* git动图加载 */ = {
 			isa = PBXGroup;
 			children = (
+				3CE88FB020A03A3300045DC8 /* circle.gif */,
 				3CE9A5DF209BFD080022E4FF /* AppDelegate.h */,
 				3CE9A5E0209BFD080022E4FF /* AppDelegate.m */,
 				3CE9A5E2209BFD080022E4FF /* ViewController.h */,
@@ -110,6 +126,12 @@
 				3CE9A5EA209BFD0A0022E4FF /* LaunchScreen.storyboard */,
 				3CE9A5ED209BFD0A0022E4FF /* Info.plist */,
 				3CE9A5EE209BFD0A0022E4FF /* main.m */,
+				3CE9A613209BFFEF0022E4FF /* GIFImageView.h */,
+				3CE9A614209BFFEF0022E4FF /* GIFImageView.m */,
+				3CE9A61F209C5FBB0022E4FF /* CADisplayImageView.h */,
+				3CE9A620209C5FBB0022E4FF /* CADisplayImageView.m */,
+				3CE9A622209C61860022E4FF /* ZYImage.h */,
+				3CE9A623209C61860022E4FF /* ZYImage.m */,
 			);
 			path = "git动图加载";
 			sourceTree = "<group>";
@@ -130,6 +152,14 @@
 				3CE9A605209BFD0A0022E4FF /* Info.plist */,
 			);
 			path = "git动图加载UITests";
+			sourceTree = "<group>";
+		};
+		3CE9A616209C00580022E4FF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3CE9A617209C00590022E4FF /* CoreImage.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -237,6 +267,7 @@
 			files = (
 				3CE9A5EC209BFD0A0022E4FF /* LaunchScreen.storyboard in Resources */,
 				3CE9A5E9209BFD0A0022E4FF /* Assets.xcassets in Resources */,
+				3CE88FB120A03A3400045DC8 /* circle.gif in Resources */,
 				3CE9A5E7209BFD080022E4FF /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -262,7 +293,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3CE9A624209C61860022E4FF /* ZYImage.m in Sources */,
 				3CE9A5E4209BFD080022E4FF /* ViewController.m in Sources */,
+				3CE9A621209C5FBB0022E4FF /* CADisplayImageView.m in Sources */,
+				3CE9A615209BFFEF0022E4FF /* GIFImageView.m in Sources */,
 				3CE9A5EF209BFD0A0022E4FF /* main.m in Sources */,
 				3CE9A5E1209BFD080022E4FF /* AppDelegate.m in Sources */,
 			);
